@@ -1,9 +1,9 @@
-body {
-    background: rgb(7, 1, 19);
-}
-
 .posts {
     padding: 3vh 1.3vw;
+    background-image: url(https://w.forfun.com/fetch/92/92f7b6c724c3a9572600886af49e35a1.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: inset 0px 6px 5px -2px rgb(0, 0, 0, 0.5);
 }
 
 .posts .post {
@@ -12,7 +12,7 @@ body {
     height: 35vh;
     margin: 2vh 1vw;
     border-radius: 15px;
-    background-color: rgba(41, 11, 93, 0.633);
+    background-color: rgba(0, 0, 0, 0.633);
 }
 
 .posts .post-img {
@@ -30,11 +30,6 @@ body {
     object-fit: cover;
     border-radius: 50%;
 }
-
-/* .posts .post-info {
-    margin-bottom: 20px;
-
-} */
 
 .posts .post-info h1 {
     font-size: 5vh;
