@@ -1,6 +1,7 @@
 .posts {
     padding: 3vh 1.3vw;
-    background-image: url(https://w.forfun.com/fetch/92/92f7b6c724c3a9572600886af49e35a1.jpeg);
+    min-height: 90vh;
+    background-image: url(https://wallpapercrafter.com/desktop1/511923-sky-stars-night-clouds-bicycle-anime-sea-anime.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     box-shadow: inset 0px 6px 5px -2px rgb(0, 0, 0, 0.5);
@@ -12,7 +13,7 @@
     height: 35vh;
     margin: 2vh 1vw;
     border-radius: 15px;
-    background-color: rgba(0, 0, 0, 0.633);
+    background-color: rgba(0, 0, 0, 0.77);
 }
 
 .posts .post-img {
@@ -39,7 +40,7 @@
 }
 
 .posts .post-info .author {
-    color: rgb(104, 103, 103);
+    color: #a7a7a7;
     margin: 0;
 }
 
@@ -52,7 +53,7 @@
 
 .posts .explanation {
     clear: both;
-    color: #636364;
+    color: #a7a7a7;
     margin: 0 2vw;
     font-size: 2.5vh;
     width: 90%;
@@ -66,17 +67,17 @@
 }
 
 
-.no-offer {
+.no-posts {
     border-radius: 5px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.20),
         0 2px 10px 0 rgba(0, 0, 0, 0.20);
-    background-color: rgba(71, 20, 158, 0.1);
+    background-color: rgba(0, 0, 0, 0.7);
     width: auto;
     height: 100px;
-    margin: auto;
 }
 
-.no-offer p {
+.no-posts p {
+    color: rgb(160, 160, 160);
     font-size: 30px;
     text-align: center;
     padding-top: 30px;
