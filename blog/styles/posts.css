@@ -17,6 +17,15 @@
     box-shadow: inset 0px 6px 5px -2px rgb(0, 0, 0, 0.5);
 }
 
+.anime-posts {
+    padding: 3vh 1.3vw;
+    min-height: 90vh;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5ae11809f93fd4f365d1d2c3/1532554978733-7363LIINRY5OEZ7OHYGP/my-neighbor-totoro-hayao-miyazaki.jpg?format=2500w);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: inset 0px 6px 5px -2px rgb(0, 0, 0, 0.5);
+}
+
 .post {
     display: inline-block;
     width: 30vw;
