@@ -24,13 +24,17 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     box-shadow: inset 0px 6px 5px -2px rgb(0, 0, 0, 0.5);
+.posts {
+    display: grid;
+    grid-template-rows: repeat(3, 35vh);
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 2em;
+    padding: 3vh 1.3vw;
+    min-height: 90vh;
+    box-shadow: inset 0px 6px 6px -2px rgb(0, 0, 0, 0.7);
 }
 
 .post {
-    display: inline-block;
-    width: 30vw;
-    height: 35vh;
-    margin: 2vh 1vw;
     border-radius: 15px;
     background-color: rgba(0, 0, 0, 0.77);
 }
