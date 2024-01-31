@@ -1,29 +1,22 @@
-.posts {
-    padding: 3vh 1.3vw;
-    min-height: 90vh;
+.all-posts {
     background-image: url(https://wallpapercrafter.com/desktop1/511923-sky-stars-night-clouds-bicycle-anime-sea-anime.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    box-shadow: inset 0px 6px 5px -2px rgb(0, 0, 0, 0.5);
 }
 
 .manga-posts {
-    padding: 3vh 1.3vw;
-    min-height: 90vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(https://insightout.blog/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdw7izgruq%2Fimage%2Fupload%2Fv1686971738%2F7825045_n9ombd.jpg&w=3840&q=75);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    box-shadow: inset 0px 6px 5px -2px rgb(0, 0, 0, 0.5);
 }
 
 .anime-posts {
-    padding: 3vh 1.3vw;
-    min-height: 90vh;
     background-image: url(https://images.squarespace-cdn.com/content/v1/5ae11809f93fd4f365d1d2c3/1532554978733-7363LIINRY5OEZ7OHYGP/my-neighbor-totoro-hayao-miyazaki.jpg?format=2500w);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    box-shadow: inset 0px 6px 5px -2px rgb(0, 0, 0, 0.5);
+}
+
 .posts {
     display: grid;
     grid-template-rows: repeat(3, 35vh);
