@@ -17,6 +17,13 @@
     background-size: 100% 100%;
 }
 
+.novel-posts {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(https://criticalhits.com.br/wp-content/uploads/2021/05/H2x1_NSwitch_ReZeroStartingLifeInAnotherWorldTheProphecyOfTheThrone_1_image1600w.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
 .posts {
     display: grid;
     grid-template-rows: repeat(3, 35vh);
