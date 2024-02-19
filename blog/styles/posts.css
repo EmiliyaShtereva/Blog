@@ -25,7 +25,10 @@
 }
 
 .your-posts {
-    background: linear-gradient(rgb(45, 19, 44, 0.6), rgb(128, 19, 54, 0.6));
+    background-image:
+    url(https://images.hdqwalls.com/download/homura-akemi-from-mahou-shoujo-madoka-magica-rc-2560x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .posts {
@@ -49,6 +52,7 @@
     transform: scale(1.06);
     background-color: rgba(0, 0, 0, 0.9);
     box-shadow: 0px 2px 6px 2px rgb(0, 0, 0, 0.7);
+    cursor: pointer;
 }
 
 .post-img {
