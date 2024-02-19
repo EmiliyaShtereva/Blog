@@ -30,15 +30,16 @@
 
 .posts {
     display: grid;
-    grid-template-rows: repeat(3, 35vh);
-    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(3, 30vh);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 2em;
     padding: 3vh 1.3vw;
     min-height: 90vh;
-    box-shadow: inset 0px 6px 6px -2px rgb(0, 0, 0, 0.7);
+    box-shadow: inset 0px 6px 6px -2px rgb(0, 0, 0, 0.6);
 }
 
 .post {
+    padding-top: 1vh;
     transition: all .2s ease-in-out;
     border-radius: 15px;
     background-color: rgba(0, 0, 0, 0.77);
@@ -54,8 +55,8 @@
     float: left;
     border: 2px solid rgba(169, 152, 198, 0.781);
     border-radius: 50%;
-    width: 7vw;
-    height: 15vh;
+    width: 6vw;
+    height: 13vh;
     margin: 2vh 2vw 0 2vw;
 }
 
@@ -67,7 +68,7 @@
 }
 
 .post-info h1 {
-    font-size: 5vh;
+    font-size: 4vh;
     margin-top: 2vh;
     margin-bottom: 0;
     color: white;
@@ -80,7 +81,7 @@
 
 .post-info .subject {
     color: #ae46f8;
-    margin: 2vh;
+    margin: 1vh;
     font-size: 3vh;
     font-weight: bolder;
 }
@@ -91,12 +92,11 @@
     margin: 0 2vw;
     font-size: 2.5vh;
     width: 90%;
-    height: 41%;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 4;
-    line-clamp: 4;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
     -webkit-box-orient: vertical;
 }
 
