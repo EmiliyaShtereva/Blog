@@ -1,6 +1,9 @@
 .login, .register {
-  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: linear-gradient(#03001C, #301E67);
+  min-height: 90.5vh;
 }
 
 .form {
