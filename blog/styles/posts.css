@@ -1,34 +1,68 @@
 .all-posts {
-    background-image: url(https://wallpapercrafter.com/desktop1/511923-sky-stars-night-clouds-bicycle-anime-sea-anime.jpg);
+    background-image:
+        url(https://wallpapercrafter.com/desktop1/511923-sky-stars-night-clouds-bicycle-anime-sea-anime.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 .manga-posts {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(https://insightout.blog/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdw7izgruq%2Fimage%2Fupload%2Fv1686971738%2F7825045_n9ombd.jpg&w=3840&q=75);
+        url(https://insightout.blog/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdw7izgruq%2Fimage%2Fupload%2Fv1686971738%2F7825045_n9ombd.jpg&w=3840&q=75);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 .anime-posts {
-    background-image: url(https://images.squarespace-cdn.com/content/v1/5ae11809f93fd4f365d1d2c3/1532554978733-7363LIINRY5OEZ7OHYGP/my-neighbor-totoro-hayao-miyazaki.jpg?format=2500w);
+    background-image:
+        url(https://images.squarespace-cdn.com/content/v1/5ae11809f93fd4f365d1d2c3/1532554978733-7363LIINRY5OEZ7OHYGP/my-neighbor-totoro-hayao-miyazaki.jpg?format=2500w);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 .novel-posts {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(https://criticalhits.com.br/wp-content/uploads/2021/05/H2x1_NSwitch_ReZeroStartingLifeInAnotherWorldTheProphecyOfTheThrone_1_image1600w.jpg);
+        url(https://criticalhits.com.br/wp-content/uploads/2021/05/H2x1_NSwitch_ReZeroStartingLifeInAnotherWorldTheProphecyOfTheThrone_1_image1600w.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 .your-posts {
     background-image:
-    url(https://images.hdqwalls.com/download/homura-akemi-from-mahou-shoujo-madoka-magica-rc-2560x1080.jpg);
+        url(https://images.hdqwalls.com/download/homura-akemi-from-mahou-shoujo-madoka-magica-rc-2560x1080.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+}
+
+.author-posts {
+    background-image:
+        url(https://images8.alphacoders.com/133/1338268.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.author-conteiner {
+    display: flex;
+    margin: 5vh 0;
+}
+
+.author-conteiner .author-img {
+    border: 2px solid rgba(169, 152, 198, 0.781);
+    border-radius: 50%;
+    width: 6vw;
+    height: 13vh;
+    margin: 2vh 2vw 0 2vw;
+}
+
+.author-conteiner .author-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.author-conteiner .author-name {
+    color: white;
+    font-size: x-large;
 }
 
 .posts {
@@ -38,7 +72,6 @@
     grid-gap: 2em;
     padding: 3vh 1.3vw;
     min-height: 90vh;
-    box-shadow: inset 0px 6px 6px -2px rgb(0, 0, 0, 0.6);
 }
 
 .post {
@@ -71,7 +104,12 @@
     border-radius: 50%;
 }
 
-.post-info h1 {
+.author-post-info {
+    margin: 3vh 2vw 2vh;
+}
+
+.post-info h1,
+.author-post-info h1 {
     font-size: 4vh;
     margin-top: 2vh;
     margin-bottom: 0;
@@ -83,8 +121,9 @@
     margin: 0;
 }
 
-.post-info .subject {
-    color: #ae46f8;
+.post-info .subject,
+.author-post-info .subject {
+    color: #6446f8;
     margin: 1vh;
     font-size: 3vh;
     font-weight: bolder;
@@ -108,7 +147,6 @@
     padding-top: 1vh;
     transition: all .2s ease-in-out;
     border-radius: 15px;
-    /* background-color: rgba(0, 0, 0, 0.77); */
     display: flex;
     flex-flow: column;
     justify-content: center;
