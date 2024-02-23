@@ -1,10 +1,7 @@
-.post-details {
-    background: linear-gradient(#04040c, #24042c);
-}
-
 .details {
     padding: 10vh 20vw 0 15vw;
     color: rgb(204, 204, 204);
+    background: linear-gradient(#04040c, #24042c);
 }
 
 .post-header h1 {
