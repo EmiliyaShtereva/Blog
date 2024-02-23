@@ -30,6 +30,10 @@
     border-radius: 50%;
 }
 
-.detaied-explanation {
+.details-author:hover, .details-img:hover {
+    cursor: pointer;
+}
+
+.detail-explanation {
     font-size: x-large;
 }
