@@ -1,13 +1,18 @@
+.post-details {
+    background-color: #6384a2;
+}
+
 .details {
     padding: 10vh 20vw 0 15vw;
+    box-shadow: inset 0px 6px 6px -2px rgb(0, 0, 0, 0.6);
     color: rgb(204, 204, 204);
-    background: linear-gradient(#04040c, #24042c);
+    background: linear-gradient(#314c6f, #6384a2);
 }
 
 .post-header h1 {
     margin: 0;
     font-size: 8vh;
-} 
+}
 
 .details-author {
     font-size: x-large;
@@ -30,10 +35,15 @@
     border-radius: 50%;
 }
 
-.details-author:hover, .details-img:hover {
+.details-author:hover,
+.details-img:hover {
     cursor: pointer;
 }
 
 .detail-explanation {
     font-size: x-large;
+}
+
+.comments {
+    padding: 10vh 10vw 15vh 15vw;
 }

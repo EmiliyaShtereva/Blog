@@ -1,8 +1,10 @@
-.login, .register {
+.login,
+.register {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(#03001C, #301E67);
+  box-shadow: inset 0px 6px 6px -2px rgb(0, 0, 0, 0.6);
+  background: linear-gradient(#314c6f, #6384a2);
   min-height: 90.5vh;
 }
 
@@ -23,7 +25,8 @@
   color: white;
 }
 
-.form input, textarea {
+.form input,
+textarea {
   outline: 0;
   background: rgba(0, 0, 0);
   color: #b3b3b3;
@@ -37,7 +40,7 @@
   font-size: 14px;
   text-align: center;
   font-weight: bold;
-  font-family:Arial, Helvetica, sans-serif
+  font-family: Arial, Helvetica, sans-serif
 }
 
 .form button {
@@ -55,10 +58,11 @@
   transition: all 0.3 ease;
   cursor: pointer;
 }
+
 .form button:hover,
 .form button:active,
 .form button:focus {
-  background: rgb(48, 30, 103, 0.7);
+  background: #6384a2;
 }
 
 .container {
@@ -67,6 +71,7 @@
   max-width: 300px;
   margin: 0 auto;
 }
+
 .container:before,
 .container:after {
   content: "";
@@ -79,6 +84,7 @@
   color: #b3b3b3;
   font-size: 17px;
 }
+
 .form .message a {
   color: white;
   text-decoration: none;
