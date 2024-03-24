@@ -32,3 +32,43 @@
     border-bottom: 1px solid #6384a2;
     color: #b6c4d1;
 }
+
+.about-conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 6px 6px -2px rgb(0, 0, 0, 0.6);
+    background: linear-gradient(#314c6f, #6384a2);
+}
+
+.about {
+    background: rgba(0, 0, 0, 0.7);
+    width: 65em;
+    margin: 50px;
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.682), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.about h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 35px;
+    color: white;
+}
+
+.about .different-text {
+    margin: 30px 0 5px 0;
+    padding-bottom: 7px;
+    font-size: 25px;
+    border-bottom: 1px solid #6384a2;
+    color: white;
+}
+
+.about p {
+    margin: 15px 0 5px 0;
+    padding-bottom: 7px;
+    font-size: 20px;
+    color: #b6c4d1;
+}
