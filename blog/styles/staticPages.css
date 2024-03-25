@@ -1,4 +1,4 @@
-.contact-conteiner {
+.static-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,14 +31,6 @@
     font-size: 20px;
     border-bottom: 1px solid #6384a2;
     color: #b6c4d1;
-}
-
-.about-conteiner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: inset 0px 6px 6px -2px rgb(0, 0, 0, 0.6);
-    background: linear-gradient(#314c6f, #6384a2);
 }
 
 .about {
