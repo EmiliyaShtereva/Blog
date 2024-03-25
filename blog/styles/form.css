@@ -28,7 +28,7 @@
 .form input,
 textarea {
   outline: 0;
-  background: rgba(0, 0, 0);
+  background: rgba(0, 0, 0, 0.3);
   color: #b3b3b3;
   width: 90%;
   height: 50px;
@@ -47,7 +47,7 @@ textarea {
   text-transform: uppercase;
   font-weight: bold;
   outline: 0;
-  background: rgb(0, 0, 0);
+  background: rgb(0, 0, 0, 0.5);
   width: 50%;
   border: 0;
   padding: 15px;
