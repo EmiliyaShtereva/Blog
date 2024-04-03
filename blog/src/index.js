@@ -6,7 +6,7 @@ const { PORT } = require("./config");
 const app = express();
 
 // Express Configuration
-app.use(express.static(path.resolve(__dirname, "./templates")));
+app.use(express.static(path.resolve(__dirname, "./styles")));
 app.use(express.urlencoded({ extended: false }));
 
 // Routes
