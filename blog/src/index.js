@@ -1,6 +1,8 @@
 const express = require("express");
 const path = require("path");
 const handlebars = require("express-handlebars");
+
+const routes = require("./router");
 const { PORT } = require("./config");
 
 // Init
@@ -19,5 +21,6 @@ app.set("views", "src/views")
 app.get("/", (req, res) => {
     res.send("Hello home page");
 });
+app.use(routes);
 
 app.listen(PORT, () => console.log(`Server is listening on port: ${PORT}`))
