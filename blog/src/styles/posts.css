@@ -3,6 +3,7 @@
         url(https://wallpapercrafter.com/desktop1/511923-sky-stars-night-clouds-bicycle-anime-sea-anime.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    background-attachment: fixed;
 }
 
 .manga-posts {
@@ -10,6 +11,7 @@
         url(https://insightout.blog/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdw7izgruq%2Fimage%2Fupload%2Fv1686971738%2F7825045_n9ombd.jpg&w=3840&q=75);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    background-attachment: fixed;
 }
 
 .anime-posts {
@@ -17,6 +19,7 @@
         url(https://images.squarespace-cdn.com/content/v1/5ae11809f93fd4f365d1d2c3/1532554978733-7363LIINRY5OEZ7OHYGP/my-neighbor-totoro-hayao-miyazaki.jpg?format=2500w);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    background-attachment: fixed;
 }
 
 .novel-posts {
@@ -24,6 +27,7 @@
         url(https://criticalhits.com.br/wp-content/uploads/2021/05/H2x1_NSwitch_ReZeroStartingLifeInAnotherWorldTheProphecyOfTheThrone_1_image1600w.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    background-attachment: fixed;
 }
 
 .your-posts {
@@ -31,6 +35,7 @@
         url(https://images.hdqwalls.com/download/homura-akemi-from-mahou-shoujo-madoka-magica-rc-2560x1080.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    background-attachment: fixed;
 }
 
 .author-posts {
@@ -38,6 +43,7 @@
         url(https://images8.alphacoders.com/133/1338268.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    background-attachment: fixed;
 }
 
 .author-conteiner {
@@ -70,6 +76,7 @@
     grid-template-rows: repeat(3, 30vh);
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2em;
+    grid-auto-rows: 30vh;
     padding: 3vh 1.3vw;
     min-height: 90vh;
     box-shadow: inset 0px 6px 6px -2px rgb(0, 0, 0, 0.6);
