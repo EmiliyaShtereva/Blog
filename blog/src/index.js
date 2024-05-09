@@ -13,7 +13,7 @@ const app = express();
 // Express Configuration
 app.use(express.static(path.resolve(__dirname, "./styles")));
 app.use(express.urlencoded({ extended: false }));
-app.use(cookieParser);
+app.use(cookieParser());
 
 //Handlebars Configuration
 app.engine("hbs", handlebars.engine({ extname: "hbs" }));
