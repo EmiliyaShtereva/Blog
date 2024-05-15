@@ -1,0 +1,38 @@
+.page-not-found {
+    padding: 25vh 0 30vh 0;
+    text-align: center;
+    background-image:
+    linear-gradient(rgba(127, 127, 127, 0.1), rgb(127, 127, 127, 0.4)),
+        url(https://images4.alphacoders.com/115/thumb-1920-1151261.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: #050818;
+}
+
+.page-not-found p {
+    margin: 0;
+    font-size: 8rem;
+    font-weight: bold;
+}
+
+.page-not-found .text {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.page-not-found button {
+    margin-top: 15px;
+    padding: 10px;
+    border: solid 3px #050818;
+    border-radius: 7px;
+    background: transparent;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.page-not-found button:hover {
+    color: #828282;
+    background: #050818;
+    cursor: pointer;
+}
