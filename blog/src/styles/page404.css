@@ -17,21 +17,22 @@
 }
 
 .page-not-found .text {
-    margin: 0;
+    margin: 0 0 30px 0;
     font-size: 2.5rem;
 }
 
-.page-not-found button {
-    margin-top: 15px;
+.page-not-found a {
     padding: 10px;
     border: solid 3px #050818;
     border-radius: 7px;
     background: transparent;
     font-size: 1.5rem;
     font-weight: bold;
+    text-decoration: none;
+    color: #050818;
 }
 
-.page-not-found button:hover {
+.page-not-found a:hover {
     color: #828282;
     background: #050818;
     cursor: pointer;
