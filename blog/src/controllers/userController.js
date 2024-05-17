@@ -25,7 +25,8 @@ router.get("/register", (req, res) => {
 router.post("/register", async (req, res) => {
     const { name, email, password, repeatPassword } = req.body;
     try {
-        await userService.register({ name, email, password, repeatPassword });
+        const token = await userService.register({ name, email, password, repeatPassword });
+        res.cookie("token", token, { httpOnly: true })
         res.redirect("/");
     } catch (error) {
         const errorMessages = extractErrorMsgs(error);
